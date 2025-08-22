@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"object_PlayerSpawn",
+  "%Name":"object_Midground",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"object_PlayerSpawn",
+  "name":"object_Midground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Objects/Entities.yy",
+    "name":"VFX",
+    "path":"folders/Objects/VFX.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_PlayerSpawn",
-    "path":"sprites/sprite_PlayerSpawn/sprite_PlayerSpawn.yy",
+    "name":"sprite_Midground_City",
+    "path":"sprites/sprite_Midground_City/sprite_Midground_City.yy",
   },
   "spriteMaskId":null,
   "visible":true,

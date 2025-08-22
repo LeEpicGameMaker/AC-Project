@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"object_InvisWall",
-  "eventList":[],
+  "%Name":"object_Killzone",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"object_Player","path":"objects/object_Player/object_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"object_InvisWall",
+  "name":"object_Killzone",
   "overriddenProperties":[],
   "parent":{
     "name":"Geometry",
     "path":"folders/Objects/Geometry.yy",
   },
-  "parentObjectId":{
-    "name":"object_Ground",
-    "path":"objects/object_Ground/object_Ground.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,14 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprite_InvisWall",
-    "path":"sprites/sprite_InvisWall/sprite_InvisWall.yy",
+    "name":"sprite_Killzone",
+    "path":"sprites/sprite_Killzone/sprite_Killzone.yy",
   },
-  "spriteMaskId":{
-    "name":"sprite_InvisWall",
-    "path":"sprites/sprite_InvisWall/sprite_InvisWall.yy",
-  },
-  "visible":false,
+  "spriteMaskId":null,
+  "visible":true,
 }

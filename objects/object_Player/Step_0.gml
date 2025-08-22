@@ -54,5 +54,9 @@ else // Idle
 	sprite_index = sprite_Player_Idle
 }
 
+if health <= 0
+{
+	instance_destroy(self)
+}
 
 
