@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"object_Enemy_Swarm_Patrol",
+  "%Name":"object_Enemy_Swarm",
   "eventList":[],
   "managed":true,
-  "name":"object_Enemy_Swarm_Patrol",
+  "name":"object_Enemy_Swarm",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Entities/Enemies.yy",
   },
   "parentObjectId":{
-    "name":"object_Enemy_Patrol",
-    "path":"objects/object_Enemy_Patrol/object_Enemy_Patrol.yy",
+    "name":"object_Enemy_Base",
+    "path":"objects/object_Enemy_Base/object_Enemy_Base.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

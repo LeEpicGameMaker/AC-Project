@@ -7,7 +7,6 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Entities","order":2,"path":"folders/Objects/Entities.yy",},
     {"name":"Enemies","order":4,"path":"folders/Objects/Entities/Enemies.yy",},
-    {"name":"Base","order":3,"path":"folders/Objects/Entities/Enemies/Base.yy",},
     {"name":"Geometry","order":3,"path":"folders/Objects/Geometry.yy",},
     {"name":"VFX","order":5,"path":"folders/Objects/VFX.yy",},
     {"name":"Weapons","order":1,"path":"folders/Objects/Weapons.yy",},
@@ -29,8 +28,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"object_Enemy_Patrol","order":2,"path":"objects/object_Enemy_Patrol/object_Enemy_Patrol.yy",},
-    {"name":"object_Enemy_Swarm_Patrol","order":4,"path":"objects/object_Enemy_Swarm_Patrol/object_Enemy_Swarm_Patrol.yy",},
+    {"name":"object_Enemy_Base","order":2,"path":"objects/object_Enemy_Base/object_Enemy_Base.yy",},
+    {"name":"object_Enemy_Swarm","order":1,"path":"objects/object_Enemy_Swarm/object_Enemy_Swarm.yy",},
     {"name":"object_Explosion","order":4,"path":"objects/object_Explosion/object_Explosion.yy",},
     {"name":"object_InvisWall","order":1,"path":"objects/object_InvisWall/object_InvisWall.yy",},
     {"name":"object_Killzone","order":2,"path":"objects/object_Killzone/object_Killzone.yy",},
@@ -41,6 +40,7 @@
     {"name":"sound_Music_EndingFlorish","order":1,"path":"sounds/sound_Music_EndingFlorish/sound_Music_EndingFlorish.yy",},
     {"name":"sound_Music_Pause","order":2,"path":"sounds/sound_Music_Pause/sound_Music_Pause.yy",},
     {"name":"sound_RocketFire","order":1,"path":"sounds/sound_RocketFire/sound_RocketFire.yy",},
+    {"name":"sound_RocketJump","order":3,"path":"sounds/sound_RocketJump/sound_RocketJump.yy",},
     {"name":"sprite_Background_Sky1","order":1,"path":"sprites/sprite_Background_Sky1/sprite_Background_Sky1.yy",},
     {"name":"sprite_Bullet","order":1,"path":"sprites/sprite_Bullet/sprite_Bullet.yy",},
     {"name":"sprite_Enemy_Collision","order":1,"path":"sprites/sprite_Enemy_Collision/sprite_Enemy_Collision.yy",},
@@ -55,5 +55,6 @@
     {"name":"sprite_PlayerSpawn","order":1,"path":"sprites/sprite_PlayerSpawn/sprite_PlayerSpawn.yy",},
     {"name":"sprite_Rocket","order":2,"path":"sprites/sprite_Rocket/sprite_Rocket.yy",},
     {"name":"sprite_Rocketlauncher","order":3,"path":"sprites/sprite_Rocketlauncher/sprite_Rocketlauncher.yy",},
+    {"name":"Sprite20","order":10,"path":"sprites/Sprite20/Sprite20.yy",},
   ],
 }

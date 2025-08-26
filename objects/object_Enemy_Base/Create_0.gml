@@ -2,6 +2,7 @@ MovementModifier = 1
 move_x = 0
 move_y = 0
 
+
 standing = false
 
 // get enemy info through splitting the sprite name

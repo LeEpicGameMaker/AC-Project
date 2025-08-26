@@ -1,2 +1,3 @@
 current_weapon = 0
-weapon_list = [sprite_Rocketlauncher, sprite_Gun]
+aquired_weapons = []
+weapon_list = [sprite_Gun, sprite_Rocketlauncher]

@@ -1,27 +1,29 @@
 
 // IMPORTANT -> NEGATIVE IS UP, NOT DOWN
 
-
-move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-move_x *= move_speed;
+move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+if abs(move_x) != 0
+	move_x -= 0.05
+else
+	move_x *= move_speed
 
 if place_meeting(x, y + 2, object_Ground) // If standing on ground
 {
 	standing = true
-	move_y = 0;
+	move_y = 0
 	
 	if keyboard_check(ord("W")) // If jumping
 	{
-		move_y = -jump_speed;
+		move_y = -jump_speed
 	}
 }
 
 else 
 {
 	standing = false
-	if move_y < terminal_velocity // If not falling fast enough
+	if move_y < global.TerminalVelocity // If not falling fast enough
 	{
-		move_y += 1;
+		move_y += global.Gravity
 	}
 }
 
@@ -60,3 +62,8 @@ if health <= 0
 }
 
 
+if instance_exists(object_Player)
+{
+	global.PlayerX = object_Player.x
+	global.PlayerY = object_Player.y
+}
