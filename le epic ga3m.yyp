@@ -47,6 +47,7 @@
   },
   "name":"le epic ga3m",
   "resources":[
+    {"id":{"name":"font_Arial","path":"fonts/font_Arial/font_Arial.yy",},},
     {"id":{"name":"object_Enemy_Base","path":"objects/object_Enemy_Base/object_Enemy_Base.yy",},},
     {"id":{"name":"object_Enemy_Swarm","path":"objects/object_Enemy_Swarm/object_Enemy_Swarm.yy",},},
     {"id":{"name":"object_Explosion","path":"objects/object_Explosion/object_Explosion.yy",},},
@@ -86,7 +87,6 @@
     {"id":{"name":"sprite_PlayerSpawn","path":"sprites/sprite_PlayerSpawn/sprite_PlayerSpawn.yy",},},
     {"id":{"name":"sprite_Rocket","path":"sprites/sprite_Rocket/sprite_Rocket.yy",},},
     {"id":{"name":"sprite_Rocketlauncher","path":"sprites/sprite_Rocketlauncher/sprite_Rocketlauncher.yy",},},
-    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

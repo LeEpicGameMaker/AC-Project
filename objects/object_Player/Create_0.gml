@@ -1,7 +1,9 @@
 move_speed = global.MoveSpeed;
 jump_speed = 16;
-move_x = 0;
+facing = 0;
 move_y = 0;
+move_x = 0;
+current_speed = 0;
 standing = true;
 
 global.IsGamePaused = false;

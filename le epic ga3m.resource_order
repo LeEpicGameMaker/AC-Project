@@ -55,6 +55,5 @@
     {"name":"sprite_PlayerSpawn","order":1,"path":"sprites/sprite_PlayerSpawn/sprite_PlayerSpawn.yy",},
     {"name":"sprite_Rocket","order":2,"path":"sprites/sprite_Rocket/sprite_Rocket.yy",},
     {"name":"sprite_Rocketlauncher","order":3,"path":"sprites/sprite_Rocketlauncher/sprite_Rocketlauncher.yy",},
-    {"name":"Sprite20","order":10,"path":"sprites/Sprite20/Sprite20.yy",},
   ],
 }

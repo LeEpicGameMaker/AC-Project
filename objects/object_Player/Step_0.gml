@@ -1,11 +1,20 @@
 
 // IMPORTANT -> NEGATIVE IS UP, NOT DOWN
 
-move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"))
-if abs(move_x) != 0
-	move_x -= 0.05
-else
-	move_x *= move_speed
+facing = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+
+// 1 = right, -1 = left, 0 = stationary
+
+if facing = 0 and move_x // If not pressing left or right
+{
+	move_x -= 0.1
+}
+else 
+{
+	move_x = move_speed
+}
+current_speed = move_x * facing
+
 
 if place_meeting(x, y + 2, object_Ground) // If standing on ground
 {
@@ -17,7 +26,6 @@ if place_meeting(x, y + 2, object_Ground) // If standing on ground
 		move_y = -jump_speed
 	}
 }
-
 else 
 {
 	standing = false
@@ -34,12 +42,12 @@ if move_y < 0 and place_meeting(x, y - 2, object_Ground) // If hitting head on s
 }
 
 
-if (move_x != 0) // If moving left or right
+if (facing != 0) // If moving left or right
 {
-	image_xscale = sign(move_x);
+	image_xscale = facing;
 }
 
-move_and_collide(move_x, move_y, object_Ground, 8, 0, 0, move_speed, -1);
+move_and_collide(current_speed, move_y, object_Ground, 8, 0, 0, move_speed, -1);
 
 
 // Animate player
@@ -47,7 +55,7 @@ if not standing // If player is in the air
 {
 	sprite_index = sprite_Player_Fall
 }
-else if move_x != 0 // If walking
+else if facing != 0 // If walking
 {
 	sprite_index = sprite_Player_Walk
 }
