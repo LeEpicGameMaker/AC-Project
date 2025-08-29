@@ -2,7 +2,9 @@ move_speed = global.MoveSpeed;
 jump_speed = 16;
 move_x = 0;
 move_y = 0;
-standing = true;
+is_standing = true;
+velocity = 0; // I know velocity is technically a vector, but whatever
+is_rocket_jumping = false;
 
 global.IsGamePaused = false;
 

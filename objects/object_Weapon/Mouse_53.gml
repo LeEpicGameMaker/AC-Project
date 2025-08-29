@@ -2,11 +2,11 @@
 
 var projectile = 0
 
-if current_weapon = 0 // Gun
+if current_weapon = 1 // Gun
 {
 	projectile = object_RegBullet
 }
-else if current_weapon = 1 // Rocket Launcher
+else if current_weapon = 2 // Rocket Launcher
 {
 	projectile = object_Rocket
 }
