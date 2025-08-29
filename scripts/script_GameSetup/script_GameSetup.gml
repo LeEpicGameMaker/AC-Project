@@ -14,3 +14,6 @@ global.MoveSpeed = 5
 global.PlayerHasWeapons = false
 global.Gravity = 0.98	//0.98 units/frame
 global.TerminalVelocity = 24
+
+global.AquiredWeapons = []
+global.WeaponList = [sprite_Gun, sprite_Rocketlauncher]

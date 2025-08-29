@@ -1,14 +1,14 @@
 // Determine Correct Fireable
 
-var projectile = 0
+var projectile = noone
 
-if current_weapon = 1 // Gun
+if sprite_index = sprite_Gun // Gun
 {
 	projectile = object_RegBullet
 }
-else if current_weapon = 2 // Rocket Launcher
+else if sprite_index = sprite_Rocketlauncher // Rocket Launcher
 {
 	projectile = object_Rocket
 }
 
-instance_create_layer(x,y, "Bullets", projectile)
+instance_create_layer(x, y, "Bullets", projectile)

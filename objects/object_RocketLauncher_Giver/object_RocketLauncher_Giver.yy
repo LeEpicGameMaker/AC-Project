@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"object_WeaponGiver",
+  "%Name":"object_RocketLauncher_Giver",
   "eventList":[],
   "managed":true,
-  "name":"object_WeaponGiver",
+  "name":"object_RocketLauncher_Giver",
   "overriddenProperties":[],
   "parent":{
     "name":"Give",
     "path":"folders/Objects/Weapons/Give.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"object_WeaponGiver_Base",
+    "path":"objects/object_WeaponGiver_Base/object_WeaponGiver_Base.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprite_Rocketlauncher",
+    "path":"sprites/sprite_Rocketlauncher/sprite_Rocketlauncher.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

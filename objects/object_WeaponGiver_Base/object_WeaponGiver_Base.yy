@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"object_Explosion",
+  "%Name":"object_WeaponGiver_Base",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"object_Player","path":"objects/object_Player/object_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"object_Explosion",
+  "name":"object_WeaponGiver_Base",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapons",
-    "path":"folders/Objects/Weapons.yy",
+    "name":"Give",
+    "path":"folders/Objects/Weapons/Give.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprite_Explosion",
-    "path":"sprites/sprite_Explosion/sprite_Explosion.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
