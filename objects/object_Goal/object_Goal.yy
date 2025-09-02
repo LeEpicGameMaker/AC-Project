@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"object_PlayerSpawn",
+  "%Name":"object_Goal",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"object_Player","path":"objects/object_Player/object_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"object_PlayerSpawn",
+  "name":"object_Goal",
   "overriddenProperties":[],
   "parent":{
     "name":"Entities",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_PlayerSpawn",
-    "path":"sprites/sprite_PlayerSpawn/sprite_PlayerSpawn.yy",
+    "name":"sprite_Goal",
+    "path":"sprites/sprite_Goal/sprite_Goal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
