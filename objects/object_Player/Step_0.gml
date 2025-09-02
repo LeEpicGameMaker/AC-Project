@@ -1,27 +1,41 @@
+if not can_move
+{
+	return	
+}
 
 // IMPORTANT -> NEGATIVE IS UP, NOT DOWN
 
+facing = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
-move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-move_x *= move_speed;
+// 1 = right, -1 = left, 0 = stationary
+
+if is_rocket_jumping and place_meeting(x, y + 1, object_Ground)
+{
+	is_rocket_jumping = false
+}
+else
+{
+	move_x = move_speed
+}
+current_speed = move_x * facing
+
 
 if place_meeting(x, y + 2, object_Ground) // If standing on ground
 {
 	standing = true
-	move_y = 0;
+	move_y = 0
 	
 	if keyboard_check(ord("W")) // If jumping
 	{
-		move_y = -jump_speed;
+		move_y = -jump_speed
 	}
 }
-
 else 
 {
 	standing = false
-	if move_y < terminal_velocity // If not falling fast enough
+	if move_y < global.TerminalVelocity // If not falling fast enough
 	{
-		move_y += 1;
+		move_y += global.Gravity
 	}
 }
 
@@ -32,12 +46,12 @@ if move_y < 0 and place_meeting(x, y - 2, object_Ground) // If hitting head on s
 }
 
 
-if (move_x != 0) // If moving left or right
+if (facing != 0) // If moving left or right
 {
-	image_xscale = sign(move_x);
+	image_xscale = facing;
 }
 
-move_and_collide(move_x, move_y, object_Ground, 8, 0, 0, move_speed, -1);
+move_and_collide(current_speed, move_y, object_Ground, 8, 0, 0, -1, -1);
 
 
 // Animate player
@@ -45,7 +59,7 @@ if not standing // If player is in the air
 {
 	sprite_index = sprite_Player_Fall
 }
-else if move_x != 0 // If walking
+else if facing != 0 // If walking
 {
 	sprite_index = sprite_Player_Walk
 }
@@ -54,5 +68,14 @@ else // Idle
 	sprite_index = sprite_Player_Idle
 }
 
+if health <= 0
+{
+	instance_destroy(self)
+}
 
 
+if instance_exists(object_Player)
+{
+	global.PlayerX = object_Player.x
+	global.PlayerY = object_Player.y
+}

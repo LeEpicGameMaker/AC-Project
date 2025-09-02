@@ -1,4 +1,5 @@
 health = 10
+score = 0
 
 global.EnemyInfo = 
 {
@@ -10,4 +11,12 @@ global.EnemyInfo =
 	}
 }
 
-draw_healthbar(10, 10, 160, 40, 10, #333333, c_green, c_maroon, 0, true, true)
+global.MoveSpeed = 5
+global.PlayerHasWeapons = false
+global.Gravity = 0.98	//0.98 units/frame
+global.TerminalVelocity = 24
+global.IsGamePaused = false
+
+global.AquiredWeapons = []
+global.WeaponList = [sprite_Gun, sprite_Rocketlauncher]
+
