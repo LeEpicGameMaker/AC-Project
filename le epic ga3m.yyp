@@ -61,6 +61,8 @@
     {"id":{"name":"object_RegBullet","path":"objects/object_RegBullet/object_RegBullet.yy",},},
     {"id":{"name":"object_Rocket","path":"objects/object_Rocket/object_Rocket.yy",},},
     {"id":{"name":"object_Weapon","path":"objects/object_Weapon/object_Weapon.yy",},},
+    {"id":{"name":"room_Test_1","path":"rooms/room_Test_1/room_Test_1.yy",},},
+    {"id":{"name":"room_Test_2","path":"rooms/room_Test_2/room_Test_2.yy",},},
     {"id":{"name":"room_Test","path":"rooms/room_Test/room_Test.yy",},},
     {"id":{"name":"script_GameSetup","path":"scripts/script_GameSetup/script_GameSetup.yy",},},
     {"id":{"name":"sound_GunFire","path":"sounds/sound_GunFire/sound_GunFire.yy",},},
@@ -91,6 +93,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"room_Test_2","path":"rooms/room_Test_2/room_Test_2.yy",},},
+    {"roomId":{"name":"room_Test_1","path":"rooms/room_Test_1/room_Test_1.yy",},},
     {"roomId":{"name":"room_Test","path":"rooms/room_Test/room_Test.yy",},},
   ],
   "templateType":"game",

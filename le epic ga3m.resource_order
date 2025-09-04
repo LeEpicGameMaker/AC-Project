@@ -38,6 +38,8 @@
     {"name":"object_RegBullet","order":1,"path":"objects/object_RegBullet/object_RegBullet.yy",},
     {"name":"object_Rocket","order":2,"path":"objects/object_Rocket/object_Rocket.yy",},
     {"name":"object_Weapon","order":3,"path":"objects/object_Weapon/object_Weapon.yy",},
+    {"name":"room_Test_1","order":1,"path":"rooms/room_Test_1/room_Test_1.yy",},
+    {"name":"room_Test_2","order":2,"path":"rooms/room_Test_2/room_Test_2.yy",},
     {"name":"sound_Music_EndingFlorish","order":1,"path":"sounds/sound_Music_EndingFlorish/sound_Music_EndingFlorish.yy",},
     {"name":"sound_Music_Pause","order":2,"path":"sounds/sound_Music_Pause/sound_Music_Pause.yy",},
     {"name":"sound_RocketFire","order":1,"path":"sounds/sound_RocketFire/sound_RocketFire.yy",},
