@@ -1,3 +1,8 @@
+if frozen
+{
+	sprite_index = sprite_Player_Idle
+	return
+}
 
 // IMPORTANT -> NEGATIVE IS UP, NOT DOWN
 

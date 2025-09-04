@@ -5,6 +5,7 @@ move_y = 0;
 move_x = 0;
 current_speed = 0;
 standing = true;
+frozen = false;
 
 global.IsGamePaused = false;
 

@@ -1,7 +1,3 @@
-instance_destroy(other)
+instance_destroy(other);
 
-enemy_health -= other.damage
-
-if enemy_health >= 0
-	instance_destroy(self)
-	score += Enemy.Damage * 5
+enemy_health -= other.damage;

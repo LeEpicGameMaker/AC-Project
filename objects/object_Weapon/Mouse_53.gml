@@ -11,4 +11,7 @@ else if sprite_index = sprite_Rocketlauncher // Rocket Launcher
 	projectile = object_Rocket
 }
 
-instance_create_layer(x, y, "Bullets", projectile)
+if not (projectile == noone)
+{
+	instance_create_layer(x, y, "Bullets", projectile)
+}
