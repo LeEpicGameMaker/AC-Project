@@ -10,6 +10,29 @@ camera_set_view_size(camera_get_active(), window_get_width() * ViewMod, window_g
 // Setup Music
 global.CurrentMusic = sound_Music_Main;
 
+function PlayMain(){
+	/// @desc	Plays main in-game music
+	audio_stop_sound(global.CurrentMusic);
+	audio_play_sound(sound_Music_Main, 1, true);
+	
+	global.CurrentMusic = sound_Music_Main;
+}
+
+function PlayPause(){
+	/// @desc 	Plays pause menu music
+	audio_stop_sound(global.CurrentMusic);
+	audio_play_sound(sound_Music_Pause, 1, true);
+	
+	global.CurrentMusic = sound_Music_Pause;
+}
+
+function PlayEndingFlorish(){
+	/// @desc 	Plays end of level music
+	audio_pause_sound(global.CurrentMusic);
+	audio_play_sound(sound_Music_EndingFlorish, 1, true);
+	
+	global.CurrentMusic = sound_Music_EndingFlorish;
+}
 
 // Play Music
-global.PlayMain()
+PlayMain()
