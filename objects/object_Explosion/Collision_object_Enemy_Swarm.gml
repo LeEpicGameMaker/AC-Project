@@ -1,0 +1,1 @@
+other.enemy_health -= 32 - point_distance(x, y, other.x, other.y) / 8

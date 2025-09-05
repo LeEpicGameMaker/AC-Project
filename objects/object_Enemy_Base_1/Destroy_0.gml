@@ -1,1 +1,0 @@
-score += Enemy.Damage * 5

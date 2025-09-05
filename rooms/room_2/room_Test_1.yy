@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_1699E3B0_1","path":"rooms/room_Test_1/room_Test_1.yy",},
-    {"name":"inst_44A8A58D_1","path":"rooms/room_Test_1/room_Test_1.yy",},
     {"name":"inst_3CB189F_1","path":"rooms/room_Test_1/room_Test_1.yy",},
     {"name":"inst_6F8596D6_1","path":"rooms/room_Test_1/room_Test_1.yy",},
     {"name":"inst_14ED7917_1","path":"rooms/room_Test_1/room_Test_1.yy",},
@@ -44,12 +43,15 @@
     {"name":"inst_28FBDCA9","path":"rooms/room_Test_1/room_Test_1.yy",},
     {"name":"inst_5547169F","path":"rooms/room_Test_1/room_Test_1.yy",},
     {"name":"inst_403DF993","path":"rooms/room_Test_1/room_Test_1.yy",},
+    {"name":"inst_18865BBA","path":"rooms/room_Test_1/room_Test_1.yy",},
+    {"name":"inst_DE155B6","path":"rooms/room_Test_1/room_Test_1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"GUI","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_44A8A58D_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44A8A58D_1","objectId":{"name":"object_Player","path":"objects/object_Player/object_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":704.0,},
         {"$GMRInstance":"v2","%Name":"inst_3CB189F_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CB189F_1","objectId":{"name":"object_Enemy_Swarm","path":"objects/object_Enemy_Swarm/object_Enemy_Swarm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":1024.0,},
+        {"$GMRInstance":"v2","%Name":"inst_18865BBA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18865BBA","objectId":{"name":"object_PlayerSpawn","path":"objects/object_PlayerSpawn/object_PlayerSpawn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":704.0,},
+        {"$GMRInstance":"v2","%Name":"inst_DE155B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_DE155B6","objectId":{"name":"object_Goal","path":"objects/object_Goal/object_Goal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4416.0,"y":896.0,},
       ],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"World","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
