@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"object_Ground",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"object_Enemy_Swarm",
+  "eventList":[],
   "managed":true,
-  "name":"object_Ground",
+  "name":"object_Enemy_Swarm",
   "overriddenProperties":[],
   "parent":{
-    "name":"Geometry",
-    "path":"folders/Objects/Geometry.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Entities/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"object_Enemy_Base",
+    "path":"objects/object_Enemy_Base/object_Enemy_Base.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprite_Ground",
-    "path":"sprites/sprite_Ground/sprite_Ground.yy",
+    "name":"sprite_Enemy_Swarm_Walk",
+    "path":"sprites/sprite_Enemy_Swarm_Walk/sprite_Enemy_Swarm_Walk.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sprite_Enemy_Collision",
+    "path":"sprites/sprite_Enemy_Collision/sprite_Enemy_Collision.yy",
+  },
   "visible":true,
 }

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"object_Ground",
+  "%Name":"object_WeaponGiver_Base",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"object_Player","path":"objects/object_Player/object_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"object_Ground",
+  "name":"object_WeaponGiver_Base",
   "overriddenProperties":[],
   "parent":{
-    "name":"Geometry",
-    "path":"folders/Objects/Geometry.yy",
+    "name":"Give",
+    "path":"folders/Objects/Weapons/Give.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +28,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"sprite_Ground",
-    "path":"sprites/sprite_Ground/sprite_Ground.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
