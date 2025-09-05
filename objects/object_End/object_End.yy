@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"object_RocketLauncher_Giver_1",
-  "eventList":[],
+  "%Name":"object_End",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"object_RocketLauncher_Giver_1",
+  "name":"object_End",
   "overriddenProperties":[],
   "parent":{
-    "name":"Give",
-    "path":"folders/Objects/Weapons/Give.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"object_WeaponGiver_Base_1",
-    "path":"objects/object_WeaponGiver_Base_1/object_WeaponGiver_Base_1.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"object_WeaponGiver_Base_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"object_Player_1","path":"objects/object_Player_1/object_Player_1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"object_WeaponGiver_Base_1",
   "overriddenProperties":[],
