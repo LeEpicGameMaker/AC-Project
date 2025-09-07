@@ -111,9 +111,9 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"room_Intro","path":"rooms/room_Intro/room_Intro.yy",},},
     {"roomId":{"name":"room_Test","path":"rooms/room_Test/room_Test.yy",},},
-    {"roomId":{"name":"room_End","path":"rooms/room_End/room_End.yy",},},
     {"roomId":{"name":"room_Test_1","path":"rooms/room_Test_1/room_Test_1.yy",},},
     {"roomId":{"name":"room_Test_2","path":"rooms/room_Test_2/room_Test_2.yy",},},
+    {"roomId":{"name":"room_End","path":"rooms/room_End/room_End.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"sound_Music_EndingFlorish.wav",
   "type":0,
-  "volume":0.5,
+  "volume":0.8,
 }
